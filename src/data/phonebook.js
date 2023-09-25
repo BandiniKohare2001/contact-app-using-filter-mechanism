@@ -31,5 +31,53 @@ export const phonebook = [
       {
         name: "Rani",
         mobile: 8434562384.
+      },
+
+
+
+
+
+
+
+      {
+        name: "swara",
+        mobile: 845917384.
+      },
+      {
+        name: "Ragini",
+        mobile: 9459123384.
+      },
+      {
+        name: "Ashu",
+        mobile: 8459129984.
+      },
+       {
+        name: "Nandu",
+        mobile: 8459773384.
+      },
+      {
+        name: "ranu",
+        mobile: 8459123384.
+      },
+      {
+        name: "dini",
+        mobile: 8459773384.
+      },
+      {
+        name: "Nandini kote",
+        mobile: 8459123384.
+      },
+      {
+        name: "suraj",
+        mobile: 8444123384.
+      },
+      {
+        name: "bhupesh",
+        mobile: 8499123384.
+      },
+      {
+        name: "vandan",
+        mobile: 8459113384.
       }
+
   ]
