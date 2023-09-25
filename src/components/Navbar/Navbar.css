@@ -1,0 +1,25 @@
+nav{
+    background-color: rgb(135, 206, 245);
+    height: 70px;
+   padding: 10px 10px;
+   margin-bottom: 30px;
+   display: flex;
+}
+.nav-brand{
+    margin-top: 10px;
+font-size: 45px;
+margin-left: 30px;
+}
+.add-contact{
+    margin-top: 10px;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: 100px;
+    color: #fff;
+
+}
+span{
+    font-size: 30px;
+    margin-top: -20px;
+    color: black;
+}

@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { phonebook } from './data/phonebook';
 import ContactCard from './components/ContactCard/ContactCard';
+import Navbar from './components/Navbar/Navbar';
+
+
 
 function App() {
  const [contacts, setContacts] = useState(phonebook);
@@ -19,10 +22,11 @@ function App() {
  }, [searchTerm])
   return (
 <>
-<h1 className='text-center'>Contact List</h1>
+<Navbar />
+<h1 className='heading'>Contact List</h1>
 <input 
 type='text' 
-placeholder='Search Contact' className='search' 
+placeholder='🔍 Search Contact' className='search' 
 searchTerm={searchTerm} 
 onChange={(e) => {setSearchTerm(e.target.value)}}
 />
