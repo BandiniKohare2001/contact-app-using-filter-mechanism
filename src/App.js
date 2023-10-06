@@ -38,7 +38,7 @@ return  <ContactCard
 key={index} 
 name={name} 
 mobile={mobile} 
-/>
+/> 
   })}
 </div>
 {
